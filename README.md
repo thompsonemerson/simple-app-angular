@@ -1,1 +1,1 @@
-# simple-app-angular
+# Simple App AngularJS
