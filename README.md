@@ -1,5 +1,5 @@
 # Simple App AngularJS
-A ideia do repositório é da um `Start` pra galera que está iniciando ou pretende se aventurar com [AngularJS](https://angularjs.org/).
+A ideia do repositório é da um `Start` pra galera que está iniciando ou pretende se aventurar com [AngularJS](https://angularjs.org/).<br>
 Da uma passadinha lá na [API do Angular](https://docs.angularjs.org/api) para mais informações e documentação completa da framework.
 
 
