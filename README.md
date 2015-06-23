@@ -10,5 +10,6 @@ Essa é uma aplicação simples, e nela, além de [AngularJS](https://angularjs.
 
 ## Atualizações
 Aos poucos vamos atualizando o projeto com funcionalidades e tals, para que possa realmente ajudar aos que necessitam, afinal:<br>
+
 "Amai-vos uns aos outros, como eu vos amo."<br> 
 --João 15:12 
