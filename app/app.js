@@ -1,5 +1,5 @@
 // Definindo o modulo de nosso App
-angular.module('simpleApp', [ 'ngRoute' ])
+angular.module('simpleApp', [ 'ngRoute', 'firebase' ])
 
 // Criando as Rotas
 .config(['$routeProvider',
@@ -11,14 +11,9 @@ angular.module('simpleApp', [ 'ngRoute' ])
 			controller: 'HomeCtrl'
 		})
 
-		.when('/sobre', {
-			templateUrl: 'templates/sobre.html',
-			controller: 'SobreCtrl'
-		})
-
-		.when('/contato', {
-			templateUrl: 'templates/contato.html',
-			controller: 'ContatoCtrl'
+		.when('/firebase', {
+			templateUrl: 'templates/firebase.html',
+			controller: 'FirebaseCtrl'
 		})
 
 		// Redirecionamento Default
