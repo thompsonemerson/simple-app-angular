@@ -11,6 +11,16 @@ angular.module('simpleApp', [ 'ngRoute', 'firebase' ])
 			controller: 'HomeCtrl'
 		})
 
+		.when('/repeat', {
+			templateUrl: 'templates/repeat.html',
+			controller: 'RepeatCtrl'
+		})
+
+		.when('/filter', {
+			templateUrl: 'templates/filter.html',
+			controller: 'RepeatCtrl'
+		})
+
 		.when('/firebase', {
 			templateUrl: 'templates/firebase.html',
 			controller: 'FirebaseCtrl'

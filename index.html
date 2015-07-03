@@ -12,14 +12,26 @@
 <body>
 	<nav class="light-blue" role="navigation">
 		<div class="nav-wrapper container">
-			<a id="logo-container" href="#" class="brand-logo">SPA</a>
+			<a id="logo-container" href="#/" class="brand-logo">SPA</a>
 			<ul class="right hide-on-med-and-down">
 				<li class="waves-effect waves-light"><a href="#/">Página Inicial</a></li>
+				<li class="waves-effect waves-light dropdown-button" data-activates="dropdown1">
+					<a href="#!">Funcionalidades<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="dropdown1" class="dropdown-content">
+						<li><a href="#repeat">Repeat</a></li>
+						<li><a href="#filter">Filter</a></li>
+					</ul>
 				<li class="waves-effect waves-light"><a href="#firebase">Firebase</a></li>
 			</ul>
 
 			<ul id="nav-mobile" class="side-nav">
 				<li class="waves-effect waves-light"><a href="#/">Página Inicial</a></li>
+				<li class="waves-effect waves-light dropdown-button" data-activates="dropdown1m">
+					<a href="#!">Funcionalidades<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="dropdown1m" class="dropdown-content">
+						<li><a href="#repeat">Repeat</a></li>
+						<li><a href="#filter">Filter</a></li>
+					</ul>
 				<li class="waves-effect waves-light"><a href="#firebase">Firebase</a></li>
 			</ul>
 			<a href="#" data-activates="nav-mobile" class="button-collapse waves-effect waves-light">

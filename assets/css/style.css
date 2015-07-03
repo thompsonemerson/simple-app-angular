@@ -11,3 +11,19 @@
 	right: 20px;
 	bottom: 20px;
 }
+
+.btn-doc {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	display: table;
+	padding: 5px;
+	background-color: #DDDDDD;
+	color: #333333;
+}
+	.btn-doc img {
+		max-width: 20px;
+		max-height: 20px;
+		float: left;
+		margin-right: 5px;
+	}

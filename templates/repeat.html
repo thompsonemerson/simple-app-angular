@@ -1,0 +1,23 @@
+<h1 class="header center orange-text">
+	Repeat
+</h1>
+
+<div class="container">
+	<table class="striped responsive-table">
+		<thead>
+			<tr>
+				<th data-field="id">Item</th>
+				<th data-field="name">Marca</th>
+				<th data-field="price">Valor</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr ng-repeat="item in itens">
+				<td>{{ item.nome }}</td>
+				<td>{{ item.marca }}</td>
+				<td>{{ item.valor }}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

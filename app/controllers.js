@@ -8,9 +8,23 @@ angular.module('simpleApp')
 }])
 
 
+// Controller Repeat
+.controller('RepeatCtrl', ['$scope', function ($scope) {
+	
+	// Armazenando os itens em um scope array
+	$scope.itens = [
+		{nome: 'LG G Flex', marca: 'LG', valor: 'R$ 3.309,00'},
+		{nome: 'iPhone 6', marca: 'Apple', valor: 'R$ 2.999,00'},
+		{nome: 'Nokia Lumia 1020', marca: 'Nokia', valor: 'R$ 2.583,05'},
+		{nome: 'Xperia Z2', marca: 'Sony', valor: 'R$ 2.298,57'},
+		{nome: 'ZenFone 6', marca: 'Asus', valor: 'R$ 854,10'},
+	];
+
+}])
+
+
 // Controller Firebase
 .controller('FirebaseCtrl', ['$scope', '$firebaseArray', function ($scope, $firebaseArray) {
-	$scope.titulo = "Firebase";
 
 	// Conectando com Firebase na Collection 'Equipes'
 	var ref = new Firebase("https://single-app.firebaseio.com/equipes");
