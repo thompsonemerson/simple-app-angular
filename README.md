@@ -21,11 +21,11 @@ Aos poucos vamos atualizando o projeto com funcionalidades e tals, para que poss
 
 ### Contribuir
 Ajude-nos a melhorar nossa aplicação. Abra uma [issue](https://github.com/thompsonemerson/simple-app-angular/issues/new) ou  envie um `pull request`.
-- [Fork esse repositório!](https://github.com/thompsonemerson/simple-app-angular#fork-destination-box)
-- Crie sua `feature branch`: `git checkout -b minha-nova-feature`
+- [Fork nosso repositório!](https://github.com/thompsonemerson/simple-app-angular#fork-destination-box)
+- Crie sua "feature branch": `git checkout -b minha-nova-feature`
 - Comente suas alterações: `git commit -m 'Comentando minha feature'`
 - Suba sua branch: `git push origin minha-nova-feature`
-- Nos envie seu `pull request` =D
+- Nos envie seu pull request =D
 
 ### License
 [MIT License](http://thompsonemerson.mit-license.org/) © Emerson Thompson
